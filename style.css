@@ -61,10 +61,35 @@ body {
     display: block;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
+   .aba_textos {
+    background-color: var(--texto_fundo);
+       padding:40px;
+       border_radius:0 0 40px 40px;
+   }
+.aba_conteudo.ativo{
+    display:block;
+}
+.aba_conteudo.ativo{
+    display:nome;
+}
+.aba_conteudo_titulo_principal{
+    font-size:28px;
+    text-align: center ;
+}
+.aba_conteudo_titulo_secundario{
+    text-align:center;
+    color: var(__verde);
+    text-transform: uppercase;
+}
+
+
+
+
+    
 
 @media screen and (min-width: 768px) {
     .botoes {
