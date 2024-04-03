@@ -23,6 +23,9 @@ const tempoObjetivo3 = new Date("2027-03-25T00:00:00");
 
 const tempoObjetivo4 = new Date("2025-01-10T00:00:00");
 
+const tempo =[tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
+contadores[0].textContent = calculaTempo(tempo[0]);
+
 
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
